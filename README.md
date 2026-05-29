@@ -8,6 +8,7 @@ Weiter bekannte Auszeichnungssprachen sind:
 -Extensible Markup Language(XML)
 -Yet Another Markup Language (YAML, YML)
 
-# Instalation von nodeJS
+# Instalation von Node.js
 
 Javasrcript läuft in normale Umständen in einer Browser-Sandbox (nur im Browser)
+Seit ca. 2010 gibt es eine Laufzeitumgebung (_Runtime Environment_) für JS, damit man auch Serverseitig JS programmieren und ausführen kann: [Node.js](https://nodejs.org/en)
