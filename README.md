@@ -63,4 +63,7 @@ Die Ordnerstruktur einer typischen Frontend-Anwendung sieht in etwa so aus:
 
 ![Ordnerstruktur einer Svelte-Anwendung](image.png)
 
-Der Ordner `.vscode` enthält Einstellungen für den VS-Code-Editor. Der Ordner `node_modules` enthält die Anhängigkeit (*dependencies*) der Anwendung. Das sind jene Pakete, die bei der Entwicklung (*build time*) und/oder bei der Ausführung (*runtime*) der Anwendung benötigt werden. Alle Abhängigkeiten sind in der Datei `package.json` aufgelistet. Außerdem enthält diese Datei über die Anwendung selbst (Name,Version, Autor, lizenz, etc.) und Skripte, die bestimmte Aufgaben automatisieren (z.B. Starten der Anwendung, Testen der Anwendung, Erstellen einer Produktionsversion der Anwendung).
+Der Ordner `.vscode` enthält Einstellungen für den VS-Code-Editor. Der Ordner `node_modules` enthält die Anhängigkeit (*dependencies*) der Anwendung. Das sind jene Pakete, die bei der Entwicklung (*build time*) und/oder bei der Ausführung (*runtime*) der Anwendung benötigt werden. Alle Abhängigkeiten sind in der Datei `package.json` aufgelistet. Außerdem enthält diese Datei über die Anwendung selbst (Name,Version, Autor, lizenz, etc.) und Skripte, die bestimmte Aufgaben automatisieren (z.B. Starten der Anwendung, Testen der Anwendung, Erstellen einer Produktionsversion der Anwendung). Der Ordner `public` enthält statische Dateien (z.B. Bilder, Fonts, Icons), die direkt vom Browser unter dem jeweiligen Pfad geladen werden können.
+
+![Unterstruktur des src-Ordners](image-1.png)
+Der Ordner `src` enthält den Quellcode der Anwendung.
