@@ -54,4 +54,13 @@ MCP steht für _Model Context Protocoll_. Es ist ein Standart der von Anthropic 
 Frontend
 Auszeichnungssprache
 Eine Auszeichnungssprache (englisch markup language, abgekürzt ML) ist eine maschinenlesbare Sprache für die Gliederung und Formatierung von Texten und anderen Daten. Der bekannteste Vertreter ist die…
- 
+
+# Frontend Entwicklung
+
+## Ordnerstruktur
+
+Die Ordnerstruktur einer typischen Frontend-Anwendung sieht in etwa so aus:
+
+![Ordnerstruktur einer Svelte-Anwendung](image.png)
+
+Der Ordner .vscode enthält Einstellungen für den VS-Code-Editer
